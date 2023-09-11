@@ -1,0 +1,179 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #f4f0f4;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff;
+}
+
+/* Hero Section Styles */
+.hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Section Styles */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Project Section Styles */
+.project {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-overlay:hover {
+  opacity: 1;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffebfb;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Contact Section Styles */
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fdd8ec;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.hero {
+  background-image: url('cutebg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#about {
+  background-color: #ffcccc;
+  padding: 80px 0;
+}
+
+#projects {
+  background-image: url('hdcbhj.webp');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Apply Dancing Script font to navbar links */
+.navbar-nav .nav-link {
+  font-family: 'Dancing Script', cursive;
+}
+
+.hero-title {
+  font-size: 10ex;
+  width: 150%;
+
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+
+.section-title {
+  font-size: 100px;
+  width: 100%;
+}
+.col-md-6 {
+  text-align: right;
+}
